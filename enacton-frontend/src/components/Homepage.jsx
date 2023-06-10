@@ -10,6 +10,7 @@ import { BsChevronDown } from "react-icons/bs";
 import { AiTwotoneFire,AiOutlineSearch } from "react-icons/ai";
 import Tabs from "./Tabs";
 import List from "./List";
+import Swiper from "./Swiper";
 
 
 
@@ -124,92 +125,10 @@ const Homepage = () => {
         </div>
 
         {/*feature section */}
-        <div className="flex w-[95%] h-[203px] m-auto mt-11">
-          <FaAngleLeft className="absolute mt-[110px] text-3xl ml-[10px]  text-gray-400" />
-          <div className="flex gap-4 w-[85%] h-[150px] m-auto mt-11">
-            <div className="w-[100%] h-[100%]">
-              {/* image box */}
-              <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] rounded-t-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTTtGJ038MXheNSYSfRC-7YC6M_TskSL0Vw&usqp=CAU"/>
-                <p className="relative mt-[-60px] text-center text-teal-50 text-bold text-4xl">adidas</p>
-              </div>
-              {/* description box */}
-              <div className="w-[100%] h-[50%] bg-teal-50 rounded-b-3xl">
-                <div className="flex justify-evenly pt-5 text-[12px]">
-                  <p className="text-gray-400">Up to</p>
-                  <p className="text-teal-400">8%</p>
-                  <p className="text-gray-400">cashback!</p>
-                </div>
-                <p className="text-gray-400 ml-3 text-[12px]">was 4%</p>
-              </div>
-            </div>
-            <div className="w-[100%] h-[100%]">
-              {/* image box */}
-              <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] rounded-t-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStyEgCrDmIH_-LRlqNdU50gDjBW_dxg8b8GQ&usqp=CAU"/>
-                <p className="relative mt-[-60px] text-center text-teal-50 text-bold text-4xl">Bonds</p>
-              </div>
-              {/* description box */}
-              <div className="w-[100%] h-[50%] bg-teal-50 rounded-b-3xl">
-                <div className="flex justify-evenly pt-5 text-[12px]">
-                  <p className="text-gray-400">Up to</p>
-                  <p className="text-teal-400">8%</p>
-                  <p className="text-gray-400">cashback!</p>
-                </div>
-                <p className="text-gray-400 ml-3 text-[12px]">was 4%</p>
-              </div>
-            </div>
-            <div className="w-[100%] h-[100%]">
-              {/* image box */}
-              <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] rounded-t-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-GsfMGHZWbUR0NzAMchmd-gprL9Rea1HEJQ&usqp=CAU"/>
-                <p className="relative mt-[-60px] text-center text-teal-50 text-bold text-3xl">GROUPON</p>
-              </div>
-              {/* description box */}
-              <div className="w-[100%] h-[50%] bg-teal-50 rounded-b-3xl">
-                <div className="flex justify-evenly pt-5 text-[12px]">
-                  <p className="text-gray-400">Up to</p>
-                  <p className="text-teal-400">8%</p>
-                  <p className="text-gray-400">cashback!</p>
-                </div>
-                <p className="text-gray-400 ml-3 text-[12px]">was 4%</p>
-              </div>
-            </div>
-            <div className="w-[100%] h-[100%]">
-              {/* image box */}
-              <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] rounded-t-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXYcMPdKbV71R-zTfdhQF2r_d5tJ_Qat6rw&usqp=CAU"/>
-                <p className="relative mt-[-60px] text-center text-teal-50 text-bold text-3xl">amazon</p>
-              </div>
-              {/* description box */}
-              <div className="w-[100%] h-[50%] bg-teal-50 rounded-b-3xl">
-                <div className="flex justify-evenly pt-5 text-[12px]">
-                  <p className="text-gray-400">Up to</p>
-                  <p className="text-teal-400">8%</p>
-                  <p className="text-gray-400">cashback!</p>
-                </div>
-                <p className="text-gray-400 ml-3 text-[12px]">was 4%</p>
-              </div>
-            </div>
-            <div className="w-[100%] h-[100%]">
-              {/* image box */}
-              <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] rounded-t-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNSLB7CmAqVGRr3VVcc7vQFPFBK-49-2y-gA&usqp=CAU"/>
-                <p className="relative mt-[-55px] text-center text-teal-50 text-bold text-3xl">DELL</p>
-              </div>
-              {/* description box */}
-              <div className="w-[100%] h-[50%] bg-teal-50 rounded-b-3xl">
-                <div className="flex justify-evenly pt-5 text-[12px]">
-                  <p className="text-gray-400">Up to</p>
-                  <p className="text-teal-400">8%</p>
-                  <p className="text-gray-400">cashback!</p>
-                </div>
-                <p className="text-gray-400 ml-3 text-[12px]">was 4%</p>
-              </div>
-            </div>
-          </div>
-          <FaAngleRight className="absolute right-8 mt-[110px] text-3xl ml-[10px]  text-gray-400"/>
+        <div className="w-[80%] m-auto mt-10">
+        <Swiper/>
         </div>
+      
 
 
         {/* tabs */}
